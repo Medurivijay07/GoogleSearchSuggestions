@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.suggestions-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 600px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.search {
+  width: 500px;
+  padding-left: 30px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: relative;
+  left: 20px;
+  height: 20px;
+}
